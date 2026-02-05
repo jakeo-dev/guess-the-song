@@ -89,7 +89,7 @@ export default function Play() {
 
         {seconds > 0 && addedSongsList.length > 0 && phase == "playing" ? (
           <iframe
-            className="mb-4 rounded-xl border-2 border-yellow-500"
+            className="mb-4 hidden rounded-xl border-2 border-yellow-500"
             width="337"
             height="190"
             src={
